@@ -1,0 +1,22 @@
+I found that the service was a little spotty in terms of connection.
+It could be that since it is a service offered in the public cloud
+there would be many people who could be accessing at any one time
+-cough- CSE 344 students trying to run queries along with many
+other people trying to run on the cloud as well.  Given this,
+I found that I really appreciated the ability to have a DBMS
+so accessible to use and easy to learn/navigate with the tutorials.
+Aside from the minor disconnects saying I need to reauthenticate,
+even though the active directory authentification was going on,
+or the network being unavailable or very, very, VERY slow at
+times for no reason and then running in a couple seconds where
+it took 1 minute one time.. it is quite nice.  I found when
+I worked later in the night, I did not deal with any of the 
+disconnects quite as frequently.  
+
+Aside from accessibility and network disconnects, I am concerned
+that as a public cloud and with the firewall settings that data
+could be compromised without paying for additional security.
+Fortunately, we are not using this DBMS thus far with any
+personal, compromisable data.  I wonder how having all the
+security perks would be like.  I really do, again, like the DBMS
+minus the slight connectivity issues for its accessibility!
