@@ -32,7 +32,7 @@ FROM (SELECT DISTINCT F1.dest_city
       WHERE F1.origin_city = SeaDest.dest_city) AS AllDest
 WHERE AllDest.dest_city NOT IN 
     (SELECT DISTINCT F0.dest_city
-     FROM Flights as F0
+     FROM Flights AS F0
      WHERE F0.origin_city = 'Seattle WA')
      AND AllDest.dest_city != 'Seattle WA'
 ORDER BY AllDest.dest_city ASC;
